@@ -1,0 +1,3 @@
+var Sandwich = (function () {
+	
+})
