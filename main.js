@@ -1,23 +1,6 @@
-var Sandwich = (function() {
+var Sandwich = (function() { 	
+		
+	return {};
 
-	// Private variables
-
-	var total = 0;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-});
-
-
+})();
 

@@ -1,4 +1,4 @@
-Sandwich = (function() {
+Sandwich = (function(sandwich) {
 
 	var veggieObject = {
 		"Lettuce": "0.65",
@@ -7,6 +7,14 @@ Sandwich = (function() {
 	};
 
 
+	sandwich.getVeggie = function(choice) {
+		return veggieObject[choice];
+	}
+
+
+
+
+	return sandwich;
 
 
 
@@ -16,10 +24,4 @@ Sandwich = (function() {
 
 
 
-
-
-
-
-
-
-});
+}(Sandwich));
