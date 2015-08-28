@@ -11,61 +11,58 @@
 
    <h1>It's Sandwich Time!</h1>
 
-	 <label for="breads">Breads: </label>
-	 <select id='bread' list="bread_list" name="breads" placeholder="Select your bread">
-        <option value=""></option>
-        <option value="White">White</option>
-        <option value="Wheat">Wheat</option>
-        <option value="Italian">Italian</option>
+	<label for="breads">Breads: </label>
+    <select id='bread' list="bread_list" name="bread" placeholder="Select your bread">
+      <option value=""></option>
+      <option value="White">White</option>
+      <option value="Wheat">Wheat</option>
+      <option value="Italian">Italian</option>
     </select>
-   <button id='breadButton'>Select</button><br>
+  <button id='breadButton'>Select</button><br>
 
-        <label for="meats">Meats:</label>
-		<input id='meat' list="meat_list" name="meats" placeholder="Select your meat">
-      <datalist id="meat_list">
-        <option value="Turkey">
-        <option value="Ham">
-        <option value="Chicken">
-       </datalist><br>
-    <button id='meatsButton'>Add</button>
-    <button id='removeMeat'>Remove</button><br>
+  <label for="meat">Meats:</label>
+		<select id='meat' list="meat_list" name="meat" placeholder="Select your meat">
+      <option value=""></option>
+      <option value="Turkey">Turkey</option>
+      <option value="Ham">Ham</option>
+      <option value="Chicken">Chicken</option>
+    </select>
+  <button id='meatButton'>Select</button><br>
 
-        <label for="cheese">Cheese:</label>
-    <input id='cheese' list="cheese_list" name="cheese" placeholder="Pick your cheese">
-      <datalist id="cheese_list">
-        <option value="Cheddar">
-        <option value="American">
-        <option value="Swiss">
-       </datalist><br>
-     <button id='cheeseButton'>Add</button>
-     <button id='removeCheese'>Remove</button><br>
+  <label for="cheese">Cheese:</label>
+    <select id='cheese' list="cheese_list" name="cheese" placeholder="Pick your cheese">
+      <option value=""></option>
+      <option value="Cheddar">Cheddar</option>
+      <option value="American">American</option>
+      <option value="Swiss">Swiss</option>
+     </select>
+  <button id='cheeseButton'>Select</button><br>
 
-         <label for="condiments">Condiments:</label>
-    <input id='condiments' list="condiments_list" name="condiments" placeholder="Pick your condiments">
-      <datalist id="condiments_list">
-        <option value="Ketchup">
-        <option value="Mustard">
-        <option value="Mayo">
-        </datalist><br>
-        <button id='condimentsButton'>Add</button>
-        <button id='removeCondiments'>Remove</button><br>
+  <label for="condiments">Condiments:</label>
+    <select id='condiments' list="condiments_list" name="condiments" placeholder="Pick your condiments">
+      <option value=""></option>
+      <option value="Ketchup">Ketchup</option>
+      <option value="Mustard">Mustard</option>
+      <option value="Mayo">Mayo</option>
+    </select>
+  <button id='condimentsButton'>Select</button><br>
 
-         <label for="veggies">Veggies:</label>
-    <input id='veggies' list="veggies_list" name="veggies" placeholder="Select your veggies">
-      <datalist id="veggies_list">
-        <option value="Lettuce">
-        <option value="Spinach">
-        <option value="Peppers">
-        </datalist><br>
-        <button id='veggiesButton'>Add</button>
-        <button id='removeVeggies'>Remove</button>
+  <label for="veggies">Veggies:</label>
+    <select id='veggies' list="veggies_list" name="veggies" placeholder="Select your veggies">
+      <option value=""></option>
+      <option value="Lettuce">Lettuce</option>
+      <option value="Spinach">Spinach</option>
+      <option value="Peppers">Peppers</option>
+    </select>
+  <button id='veggiesButton'>Select</button><br>
+
+  <button id="makeMySandwich">Make My Sandwich</button>
+  <button id="makeNewSandwich">Make A New Sandwich</button>
+
 
       <h2>Your sandwich and total will appear below:</h2>
 
-      <div id="sandwich">
-
-
-      </div>
+      <div id="sandwich"></div>
 
 <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="main.js" type="text/javascript"></script>
