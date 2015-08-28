@@ -25,15 +25,19 @@ $(document).ready(function() {
 		var veggieChoice = $('#veggies').val();
 		var priceOfVeggie = Sandwich.getVeggie(veggieChoice);
 		totalPrice += priceOfVeggie;
-		$("#sandwich").append(breadChoice);
-		$("#sandwich").append(priceOfBread);
+		$("#sandwich").append(veggieChoice);
+		$("#sandwich").append(priceOfVeggie);
 
 		var condimentsChoice = $('#condiments').val();
-		var priceOfCondiments = Sandwich.getBread(condimentsChoice);
+		var priceOfCondiments = Sandwich.getCondiments(condimentsChoice);
 		totalPrice += priceOfCondiments;
 		$("#sandwich").append(condimentsChoice);
 		$("#sandwich").append(priceOfCondiments);
 
+	});
+
+	$("#newOrder").click(function() {
+		$("#sandwich").html("");
 	});
 
 

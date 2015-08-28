@@ -1,11 +1,30 @@
-// Sandwich = (function() {
+var Sandwich = (function(sandwich) {
 
-// 	var cheeseObject = {
-// 		"Cheddar": "10.00",
-// 		"American": "11.00",
-// 		"Swiss": "12.50"
-// 	};
+	var cheeseObject = {
+		"Cheddar": "2.00",
+		"American": "2.50",
+		"Swiss": "2.95"
+	};
 
+
+	sandwich.getCheese = function(choice) {
+		return cheeseObject[choice];
+	}
+
+
+
+
+	return sandwich;
+
+
+
+
+
+
+
+
+
+}(Sandwich));
 
 
 

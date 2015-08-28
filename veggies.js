@@ -1,4 +1,4 @@
-Sandwich = (function(sandwich) {
+var Sandwich = (function(sandwich) {
 
 	var veggieObject = {
 		"Lettuce": "0.65",

@@ -1,13 +1,30 @@
-// Sandwich = (function() {
+var Sandwich = (function(sandwich) {
 
-// 	var condimentsObject = {
-// 		"Ketchup": "36.00",
-// 		"Mustard": "38.00",
-// 		"Mayo": "40.00"
-// 	};
+	var condimentsObject = {
+		"Ketchup": "0.50",
+		"Mustard": "0.85",
+		"Mayo": "1.25"
+	};
+
+
+	sandwich.getConidments = function(choice) {
+		return condimentsObject[choice];
+	}
 
 
 
+
+	return sandwich;
+
+
+
+
+
+
+
+
+
+}(Sandwich));
 
 
 
