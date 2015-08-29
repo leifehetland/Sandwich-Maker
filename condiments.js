@@ -7,9 +7,9 @@ var Sandwich = (function(sandwich) {
 	};
 
 
-	sandwich.getConidments = function(choice) {
+	sandwich.getCondiments = function(choice) {
 		return condimentsObject[choice];
-	}
+	};
 
 
 

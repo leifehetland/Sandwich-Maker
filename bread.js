@@ -8,8 +8,8 @@ var Sandwich = (function(sandwich){
 	};
 
 	sandwich.getBread = function(choice) {	
-		return breadsObject[choice];
-	}
+		return breadObject[choice];
+	};
 
 	
 		

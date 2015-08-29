@@ -9,7 +9,7 @@ var Sandwich = (function(sandwich) {
 
 	sandwich.getVeggie = function(choice) {
 		return veggieObject[choice];
-	}
+	};
 
 
 
